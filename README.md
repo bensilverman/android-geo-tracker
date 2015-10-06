@@ -17,7 +17,7 @@ The goal of this service set was to facilitate business logic around the followi
 
 By having a local data store of geopoints, battery activity, and device heartbeats, the remote data calls only clear local data when a remote Async Http response returns a successful response. 
 
-This project uses the LoopJ Android Asynchronous Http Client (http://loopj.com/android-async-http/), and the following dependency is declared in gradle.build:
+This project uses the LoopJ Android Asynchronous Http Client (http://loopj.com/android-async-http/), and the following dependency is declared in build.gradle:
 
 ```
 dependencies {
